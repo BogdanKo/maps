@@ -1,0 +1,44 @@
+{
+    "cities": {
+        "1": {
+            "cityName": "Cheraw",
+            "bornCount": 1,
+            "deathCount": 0,
+            "coords": {
+                "lat": 34.697656,
+                "lng": -79.883397
+            },
+            "countryId": 2
+        },
+        "2": {
+            "cityName": "Chesdsfdfsraw",
+            "bornCount": 0,
+            "deathCount": 52,
+            "coords": {
+                "lat": 47.925705,
+                "lng": 38.195716
+            },
+            "countryId": 2
+        },
+        "3": {
+            "cityName": "derwerw",
+            "bornCount": 1,
+            "deathCount": 17,
+            "coords": {
+                "lat": 47.801806,
+                "lng": 38.488535
+            },
+            "countryId": 10
+        },
+        "4": {
+            "cityName": "Cheraw",
+            "bornCount": 1,
+            "deathCount": 0,
+            "coords": {
+                "lat": 46.142494,
+                "lng": 32.952909
+            },
+            "countryId": 2
+        }
+    }
+}

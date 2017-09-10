@@ -1,0 +1,18 @@
+<div class="map-born-block" *ngIf="cities">
+    <div id="map-born" class="map-block">
+        <agm-map [latitude]="centerLat" [longitude]="centerLng" [zoom]="zoom" [styles]="mapStyle" [streetViewControl]="false">
+            <span *ngFor="let key of citiesKeys">
+                <agm-marker *ngIf="cities[key].bornCount > 0" [latitude]="cities[key].coords.lat" [longitude]="cities[key].coords.lng" (markerClick)="clickedMarker(cities[key], 0)" [iconUrl]="'/assets/images/dot.png'">
+                    <agm-info-window>
+                        <strong>InfoWindow content</strong>
+                    </agm-info-window>
+                </agm-marker>
+            </span>
+        </agm-map>
+    </div>
+    <div class="map-overlay map-overlay-born">
+        <div class="focus">
+            <!-- <img src="img/selected_dot.png" alt=""> -->
+        </div>
+    </div>
+</div>
