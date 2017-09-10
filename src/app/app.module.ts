@@ -21,6 +21,7 @@ import { StatusComponent } from './components/filters/status/status.component';
 import { MainComponent } from './pages/main/main.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ListComponent } from './pages/list/list.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ListComponent } from './pages/list/list.component';
     StatusComponent,
     MainComponent,
     AboutComponent,
-    ListComponent
+    ListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
